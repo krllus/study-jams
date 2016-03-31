@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_birthdaycard"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/drawer_birthdaycard" />
+
+        <item
+            android:id="@+id/drawer_scorecounter"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/drawer_scorecounter" />
+
+        <item
+            android:id="@+id/drawer_justjava"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/drawer_justjava" />
+        
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/drawer_settings" />
+    </group>
+
+</menu>

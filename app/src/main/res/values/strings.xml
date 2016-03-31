@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Study Jam</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- NAVIGATION DRAWER -->
+    <string name="drawer_birthdaycard">Cartao de Aniversario</string>
+    <string name="drawer_scorecounter">Score Counter</string>
+    <string name="drawer_justjava">Just Java</string>
+
+    <string name="drawer_settings">Configurações</string>
+    <string name="drawer_open">Abrir Navegação</string>
+    <string name="drawer_close">Fechar Navegação</string>
+
+    <string name="fragment_01_birthdaycard">Birthday Card</string>
+    <string name="fragment_02_scorecounter">Score Counter</string>
+
+    <string name="text_birthday_card_happybirthday">Happy Birthday, Jose!</string>
+    <string name="text_birthday_card_from">From: Joao Carlos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_name">Digite seu nome</string>
+    <string name="toppings">adicionais</string>
+    <string name="topping_chocolate">Chocolate</string>
+    <string name="topping_cream">Creme</string>
+    <string name="quantity">Quantidade</string>
+    <string name="order">comprar</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="quantity_default">0</string>
+</resources>
