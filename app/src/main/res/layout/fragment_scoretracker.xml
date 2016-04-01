@@ -31,7 +31,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
-                    android:text="Team A"
+                    android:text="@string/team_name_a"
                     android:textColor="#616161"
                     android:textSize="14sp" />
 
@@ -43,33 +43,30 @@
                     android:layout_marginTop="16dp"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
-                    android:text="0"
+                    android:text="@string/team_score_default"
                     android:textColor="#000"
                     android:textSize="56sp" />
 
                 <Button
                     android:id="@+id/btn_team_01_add_3_points"
+                    style="@style/WhiteButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:text="+3 Points"
-                    android:textColor="@android:color/white" />
+                    android:text="@string/three_points" />
 
                 <Button
                     android:id="@+id/btn_team_01_add_2_points"
+                    style="@style/WhiteButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:text="+2 Points"
-                    android:textColor="@android:color/white" />
+                    android:text="@string/two_points" />
 
                 <Button
                     android:id="@+id/btn_team_01_add_1_points"
+                    style="@style/WhiteButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:text="Free Throw"
-                    android:textColor="@android:color/white" />
+                    android:text="@string/free_throw" />
 
             </LinearLayout>
 
@@ -90,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-medium"
                     android:gravity="center_horizontal"
-                    android:text="Team B"
+                    android:text="@string/team_name_b"
                     android:textColor="#616161"
                     android:textSize="14sp" />
 
@@ -102,33 +99,30 @@
                     android:layout_marginTop="16dp"
                     android:fontFamily="sans-serif-light"
                     android:gravity="center_horizontal"
-                    android:text="0"
+                    android:text="@string/team_score_default"
                     android:textColor="#000"
                     android:textSize="56sp" />
 
                 <Button
                     android:id="@+id/btn_team_02_add_3_points"
+                    style="@style/WhiteButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:text="+3 Points"
-                    android:textColor="@android:color/white" />
+                    android:text="@string/three_points" />
 
                 <Button
                     android:id="@+id/btn_team_02_add_2_points"
+                    style="@style/WhiteButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:text="+2 Points"
-                    android:textColor="@android:color/white" />
+                    android:text="@string/two_points" />
 
                 <Button
                     android:id="@+id/btn_team_02_add_1_points"
+                    style="@style/WhiteButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:text="Free Throw"
-                    android:textColor="@android:color/white" />
+                    android:text="@string/free_throw" />
             </LinearLayout>
 
         </LinearLayout>

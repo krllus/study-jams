@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import gyndroids.com.studyjam.fragments.BirthdayCard;
+import gyndroids.com.studyjam.fragments.Cookie;
 import gyndroids.com.studyjam.fragments.JustJava;
 import gyndroids.com.studyjam.fragments.ScoreTracker;
 
@@ -92,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 });
 
         // select Default Item
-        mNavigationDrawer.getMenu().performIdentifierAction(R.id.drawer_scorecounter, 0);
+        mNavigationDrawer.getMenu().performIdentifierAction(R.id.drawer_birthday_card, 0);
 
         // http://stackoverflow.com/questions/33194594/navigationview-get-find-header-layout/33194816
         View mHeaderView = mNavigationDrawer.inflateHeaderView(R.layout.drawer_header);
@@ -104,16 +105,20 @@ public class MainActivity extends AppCompatActivity {
         Class fragmentClass;
         switch (menuItem.getItemId()) {
             // bithday card
-            case R.id.drawer_birthdaycard:
+            case R.id.drawer_birthday_card:
                 fragmentClass = BirthdayCard.class;
                 break;
             // court score counter
-            case R.id.drawer_scorecounter:
+            case R.id.drawer_score_counter:
                 fragmentClass = ScoreTracker.class;
                 break;
             // just java
-            case R.id.drawer_justjava:
+            case R.id.drawer_just_java:
                 fragmentClass = JustJava.class;
+                break;
+            // cookie
+            case R.id.drawer_cookie:
+                fragmentClass = Cookie.class;
                 break;
 
             // configs

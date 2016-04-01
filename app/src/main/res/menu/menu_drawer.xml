@@ -2,20 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/drawer_birthdaycard"
+            android:id="@+id/drawer_birthday_card"
             android:icon="@android:drawable/ic_menu_info_details"
-            android:title="@string/drawer_birthdaycard" />
+            android:title="@string/fragment_01_birthdaycard" />
 
         <item
-            android:id="@+id/drawer_scorecounter"
+            android:id="@+id/drawer_score_counter"
             android:icon="@android:drawable/ic_menu_info_details"
-            android:title="@string/drawer_scorecounter" />
+            android:title="@string/fragment_02_scorecounter" />
 
         <item
-            android:id="@+id/drawer_justjava"
+            android:id="@+id/drawer_just_java"
             android:icon="@android:drawable/ic_menu_info_details"
-            android:title="@string/drawer_justjava" />
-        
+            android:title="@string/fragment_03_justjava" />
+
+        <item
+            android:id="@+id/drawer_cookie"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/fragment_04_cookie" />
+
         <item
             android:id="@+id/drawer_settings"
             android:icon="@android:drawable/ic_menu_preferences"

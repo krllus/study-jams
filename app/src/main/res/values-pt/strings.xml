@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Study Jams</string>
+
+    <string name="action_settings">Configurações</string>
+
+    <!-- NAVIGATION DRAWER -->
+    <string name="drawer_settings">Configurações</string>
+    <string name="drawer_open">Abrir Navegação</string>
+    <string name="drawer_close">Fechar Navegação</string>
+
+    <string name="fragment_01_birthdaycard">Cartao de Aniversario</string>
+    <string name="text_birthday_card_happybirthday">Feliz Aniversario, Jose!</string>
+    <string name="text_birthday_card_from">De: Joao Carlos</string>
+
+    <string name="fragment_02_scorecounter">Marcador de Pontos</string>
+    <string name="team_name_a">Time A</string>
+    <string name="team_name_b">Time B</string>
+    <string name="team_score_default">0</string>
+    <string name="three_points">+3 Pontos</string>
+    <string name="two_points">+2 Pontos</string>
+    <string name="free_throw">Lance Livre</string>
+
+    <string name="fragment_03_justjava">Apenas Java</string>
+    <string name="hint_name">Digite seu nome</string>
+    <string name="toppings">Adicionais</string>
+    <string name="topping_chocolate">Chocolate</string>
+    <string name="topping_cream">Creme</string>
+    <string name="quantity">Quantidade</string>
+    <string name="order">Comprar</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="quantity_default">0</string>
+
+    <string name="fragment_04_cookie">Biscoito</string>
+    <string name="btn_eat_cookie">Comer o Biscoito</string>
+    <string name="before_cookie">Estou com tanta fome</string>
+    <string name="after_cookie">Estou cheio</string>
+
+</resources>

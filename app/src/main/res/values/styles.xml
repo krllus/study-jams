@@ -9,6 +9,11 @@
         <item name="colorButtonNormal">@color/colorPrimary</item>
     </style>
 
+    <style name="WhiteButton">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
     <style name="TextHeader">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">48dp</item>
